@@ -1,0 +1,327 @@
+/*---------Basic Setup-------------*/
+
+
+/*--William Sorrentino Rutgers Bootcamp Summer 2017--->
+<---Tuesday/Thursday Class-----*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*
+  The background color will be #ccc
+  at browser widths above 768px
+*/
+
+body {
+    /* Typography */
+    font-size: 18px;
+    line-height: 27px;
+    /* Visual */
+    background-color: gray;
+    width:
+}
+
+.col-md-8 {
+    /* Box-model */
+    width: auto;
+}
+
+.col-md-4 {
+    /* Box-model */
+    width: auto;
+    /* Positioning */
+}
+
+
+/*----------Header and footer-----------*/
+
+header {
+    height: 50px;
+    background-color: aquamarine;
+    display: block;
+    margin-bottom: 30px;
+    margin-left 75px;
+    border-bottom: 5px solid #0d1219;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    background-color: aquamarine;
+    height: 70px;
+    color: black;
+    border-top: 5px solid #fff padding;
+    25px 0 25px 0;
+    padding-top: 15px;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 25px;
+    color: black;
+    padding: 5px 5px;
+}
+
+h2 {
+    display: inline-block;
+    background: #008D97;
+    font-size: 20px;
+    color: white;
+    padding: 15px 15px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 20px;
+    color: black;
+}
+
+.copyw {
+    margin-top: 25px;
+}
+
+
+/*-----------------Navigation-----------*/
+
+nav {
+    /*    float: right;*/
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+
+/*------------------Images--------------------*/
+
+#linkedin-logo {
+    height: 50px;
+    width: auto;
+}
+
+#github-logo {
+    height: 50px;
+    width: auto;
+}
+
+#stack-logo {
+    height: 50px;
+    width: auto;
+}
+
+#youtube-logo {
+    height: 50px;
+    width: auto;
+}
+
+#twitter-logo {
+    height: 50px;
+    width: auto;
+}
+
+#facebook-logo {
+    height: 50px;
+    width: auto;
+}
+
+#googleplus-logo {
+    height: 50px;
+    width: auto;
+}
+
+#skype-logo {
+    height: 50px;
+    width: auto;
+}
+
+#wjhs {
+    height: 150px;
+    width: 150px;
+}
+
+#lhl {
+    height: 100px;
+    width: auto;
+}
+
+#starpainting {
+    height: 100px;
+    width: 240px;
+}
+
+#exigent {
+    height: 100px;
+    width: 240px;
+}
+
+#belmont {
+    height: 100px;
+    width: auto;
+}
+
+
+/*------------------Columns Set up for previous portfolio project-----------------*/
+
+
+/*#column1of2 {
+    width: 650px;
+    float: left;
+    margin-left: 20px;
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 100px;
+    border: 1px solid #dddddd;
+}
+
+#column2of2 {
+    float: right;
+    background: #fff;
+    text-align: center;
+    width: 270px;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    margin-right: auto;
+}
+*/
+
+
+/*-------------Contact Page-----------*/
+
+label {
+    display: block;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    margin: 10px 0 10px 0;
+    height: 25px;
+    border: 1px solid #eee;
+    font-size: 15px;
+    padding: 4px 8px;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 4px;
+    border: 1px solid #eee;
+    font-size: 15px;
+    padding: 4px 8px;
+}
+
+input[type="submit"] {
+    background: #008D97;
+    color: #eee;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+}
+
+
+/*---------------Portfolio Page----------*/
+
+
+/*li.my-site {
+    display: inline-block;
+    width: 200px;
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 1px;
+    height: 175px;
+    text-align: center;
+    background-color: #eee;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+} */
+
+
+/*---------------Media Queries----------*/
+
+
+/*Use three @media screen tags, each with one of these max-widths: 980px, 768px and 640px.*/
+
+@media screen and (max-width: 640px) {
+    .row,
+    {
+        width 100%;
+        float: left;
+        margin top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) @media screen and (max-width: 768px) {
+    body {
+        background-color: dimgrey;
+    }
+    .wrapper {
+        /* Box-model */
+        width: 100%;
+        padding: 20px;
+    }
+    #main-content,
+    #sidebar {
+        width: 100%;
+    }
+    #sidebar {
+        margin-top: 40px;
+    }
+}
+
+
+/* Additional Screen Sizes */
+
+
+/* Width at 320px and below */
+
+@media screen and (max-width: 320px) {
+    body {
+        background-color: dimgrey;
+    }
+    .wrapper {
+        /* Box-model */
+        width: 100%;
+        padding: 20px;
+    }
+    #main-content,
+    #sidebar {
+        width: 100%;
+    }
+    #sidebar {
+        margin-top: 40px;
+    }
+}
+
+
+/* Width at 168px and below */
+
+@media screen and (max-width: 168px) {
+    body {
+        background-color: dimgrey;
+    }
+    .wrapper {
+        /* Box-model */
+        width: 100%;
+        padding: 20px;
+    }
+    #main-content,
+    #sidebar {
+        width: 100%;
+    }
+    #sidebar {
+        margin-top: 40px;
+    }
+}
+
+.ul portfolio {
+    float: left;
+}
